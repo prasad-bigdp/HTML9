@@ -1,0 +1,10 @@
+Git & Github:
+Git is a Distributed version control system software
+VCS- central,distributed
+
+step1: download and install git 
+step2: check version by going cmd and type " git -v"
+step3: goto terminal--> new terminal --> type following commands
+
+git init
+git add file_name or git add .

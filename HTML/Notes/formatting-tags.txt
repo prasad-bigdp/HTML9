@@ -1,0 +1,14 @@
+Formmatting tags are used  to format the text. 
+1.<b> -- it makes the text bold.
+2.<strong> -- it also makes text bold but for SEO it is better. search engines undeerstands it well.
+3. <i> -- it makes the text italic.
+4. <em> -- it also makes text italic but Search Engines understands it importantly
+5.<u> -- it makes text underlined.
+6.<mark> -- it makes the text highlight
+7.<del> -- it makes the text strike out but according to search engine its deleted. 
+8. <ins> -- it makes text underlined but according to search engines, it is inserted.
+9. <sub> and <sup>: used for subscript and superscript respectively. used in scenerios of chemistry and math formulas.
+10. <q> -- it provides quotations for the text inside it.
+11.<br> and <hr> -- these are self closing elements and used for breaking the line and make horizontal line respectively.
+12. <pre> -- pre tag is used for preformatted text. it makes text appear as it is.
+<code> -- used to wrap codes in HTML Page.

@@ -1,0 +1,8 @@
+Lists: 
+eg:grocery list,guest list,shopping list,todo list,food list ,
+List are used to list out an items. some lists need order an dsome don't.
+In HTML, There are three types of lists.
+1. Ordered Lists: These are the Lists  where order is important
+2. Unordered Lists: These lists will not prefer items based on Order. Order is not important.
+3.Description Lists: These are lists used to describe events.
+ 

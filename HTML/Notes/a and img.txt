@@ -1,0 +1,2 @@
+To Give Hyperlinks in your HTML Page, you can use anchor Tag.
+<a> content  </a>
