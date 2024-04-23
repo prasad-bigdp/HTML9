@@ -9,3 +9,10 @@ step3: goto terminal--> new terminal --> type following commands
 git init
 git add file_name or git add .
 git commit -m "message"
+   git config --global user.email "emailid"
+   git config --global user.name "username"
+
+Github is a online platform for sharing, maintaing,deploying source code. it is developed and maitained by Microsoft.
+
+ git remote add origin https://github.com/prasad-bigdp/HTML9.git
+ git push -u origin main/master
