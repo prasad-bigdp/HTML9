@@ -1,0 +1,8 @@
+// Tables
+
+Tables are used to represent data in rows and columns. it is easy to understand complex data.
+
+whole table in html is represented by "table tag"
+Each row in table is represented by "tr" tag
+Each data in table represented by "td" tag
+incase, if we need any heading , we can use "th" tag.
