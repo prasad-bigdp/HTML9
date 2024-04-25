@@ -1,0 +1,37 @@
+There are two types of elements in HTML.
+Block and Inline elements
+Block elements  don't allow any element beside them and inline elements does.
+
+Eg for Block elements: headings,p,semantic elements etc..,
+
+Eg for inline elements : anchor , img, input elements etc..,
+
+general block element is div and general inline element is span.
+
+********************************
+Class and Ids:
+===============================
+Each and Every element in HTML can be given a name.(class or id)
+
+classnames are like general names. One element may have morethan one classnames and multiple elements may have same class name
+
+Id's are like unique values. one element will have only one ID and no other elements will have same ID.
+
+*********************************
+Semantic elements
+#################################
+
+Semantic elemnts are used for better SEO. 
+header, footer, main, section, article, address, nav
+
+
+
+
+
+
+
+
+
+
+
+
