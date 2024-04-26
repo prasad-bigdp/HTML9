@@ -1,0 +1,17 @@
+Blogging
+netlify
+git and github
+
+HTML
+================================
+
+fitst HTML
+headings,p,img,a
+lists
+tables
+formatting tags
+inline vs block
+semantic elements
+classes and id
+emoji,symbols,icons
+
