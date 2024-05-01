@@ -1,0 +1,27 @@
+HTML allows different kinds of medias
+you can play audio by "audio" tag or video by "video" tag
+Both tags need controls to make them work and source to give respective video or audio
+
+<audio controls>
+    <source src="link to mp3">
+</audio>
+<video controls>
+    <source src="link to mp4">
+</video>
+
+you can also give responsive images using picture tag. it means for different devices, we can give different images
+
+<picture>
+  <source media="(min-width/max-width:length in px)" srcset="link to image">
+  <img src="default image" alt="alt title">
+</picture
+
+*** picture tag only uses media and heirarchy should be top to down
+
+you can also embed a map, img,video,audio,pdfs,docs, anything using iframe
+
+<iframe src=""></iframe>
+
+** for maps--> google maps
+** for videos --> youtube
+** for animations --> lottiefiles

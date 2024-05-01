@@ -1,11 +1,11 @@
-Blogging
-netlify
+Blogging - hashnode
+netlify -- folder--, main file name- index.html
 git and github
 
 HTML
 ================================
 
-fitst HTML
+first HTML
 headings,p,img,a
 lists
 tables

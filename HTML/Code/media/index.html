@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/shinchan.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- how to keep audio -->
+    <audio controls autoplay muted>
+        <source src="./sample.mp3">
+    </audio>
+    <!-- how to keep video -->
+    <video controls autoplay muted loop>
+        <source src="./sample.mp4">
+    </video>
+    <!-- responsive images-->
+    <picture>
+        <source media="(min-width:756px)" srcset="./images/jerry.jpg">
+        <source media="(min-width:480px)"  srcset="./images/Mickey_Mouse_Disney_1.webp">
+        <img src="./images/shinchan.jpg" alt="shinchan" height="200">
+    </picture>
+    <!-- how to print / show pdfs, docs, sheets, other sites. earlier we used to use embed but now we  have iframe-->
+    <iframe src="./Grade 9 - SA.pdf" frameborder="0" height="400" width="400">
+    </iframe>
+    <iframe src="./index.html" frameborder="0" height="400" width="500"></iframe>
+
+    <!-- youtube video-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/t0Q2otsqC4I?si=kiVJOqep2v3anQK2"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- map-->
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.714604691428!2d78.44462039999999!3d17.439185999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c55bb43183%3A0x1abc135b23ee2703!2sAmeerpet%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1714537843075!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- lottiefiles -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player
+        src="https://lottie.host/85b7f9b9-7024-49b9-bb75-f9af7a0213ae/HkQj9rsCBr.json" background="##FFFFFF" speed="1"
+        style="width: 300px; height: 300px" loop autoplay direction="1" mode="normal"></lottie-player>
+    
+</body>
+</html>
