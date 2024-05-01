@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reg Form</title>
+    </head>
+
+    <body>
+        <h1>Registration form</h1>
+        <!-- indentation-->
+        <form action="main.java">
+           <fieldset>
+            <legend>My details</legend>
+            <div id="name">
+                <label for="un">Enter name</label>
+                <input type="text" placeholder="First name" id="un" required>
+                <input type="text" placeholder="Last name" readonly>
+            </div><br>
+            <div id="email">
+                <label for="em">Enter email:</label>
+                <input type="email" placeholder="enter mail" pattern="[0-9A-Za-z]+@[A-Za-z].[A-Za-z]{3}">
+            </div><br>
+            <div class="mobile">
+                <label for="mob">Enter age:</label>
+                <input type="number" name="num" id="mob" min="18" max="25">
+            </div><br>
+            <div class="gender">
+                <label>select Gender:</label>
+                <input type="radio" name="gen" id="m">
+                <label for="m">Male</label>
+                <input type="radio" name="gen" id="f">
+                <label for="f">FeMale</label>
+            </div><br>
+            <div class="languages">
+                <label> Select languages:</label>
+                <input type="checkbox" name="lang" id="eng">
+                <label for="eng">English</label>
+                <input type="checkbox" name="lang" id="tel">
+                <label for="tel">Telugu</label>
+                <input type="checkbox" name="lang" id="hin">
+                <label for="hin">Hindi</label>
+            </div><br>
+           </fieldset>
+            <div class="course">
+                <label>Select the course</label>
+                <select name="course" id="course" size="5" multiple>
+                    <option value="">select a course</option>
+                    <optgroup label="ENGG">
+                        <option value="cse">
+                            CSE
+                        </option>
+                        <option value="eee">
+                            EEE
+                        </option>
+                        <option value="Mech">
+                            Mech
+                        </option>
+                        <option value="civil">
+                            CIVIL
+                        </option>
+                    </optgroup>
+                   <optgroup label="Degree">
+                    <option value="bsc">
+                        BSC
+                    </option>
+                    <option value="bcom">
+                        BCOM
+                    </option>
+                    <option value="bca">
+                        BCA
+                    </option>
+                    <option value="bba">
+                        BBA
+                    </option>
+                   </optgroup>
+                   <optgroup label="others">
+                    <option value="ca">
+                        CA
+                    </option>
+                   </optgroup>
+
+                </select>
+            </div><br>
+            <div class="message">
+                <label for="">Enter the message</label>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Enter the message"></textarea>
+            </div><br>
+         <input type="text" list="mylist">
+            <datalist id="mylist">
+             <option value="vanilla">vanilla</option>
+             <option value="chocolate">chocolate</option>
+             <option value="butterscotch">butterscotch</option>
+             <option value="c1">c1</option>
+            </datalist><br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+
+    </body>
+
+</html>

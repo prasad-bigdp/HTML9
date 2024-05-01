@@ -1,0 +1,72 @@
+Forms are used to collect the data from user.
+
+we use input tags for forms.input tag is a self closing tag.
+
+Every input must have
+ type attribute --> it tells what type of input it accepts
+ name attribute --> it tells under what name it will be sent when we submit the form
+We can also use follwoing attributes
+
+value ---> predefined value will takes place.
+
+placeholder --> it is default value placed until user enters a value
+
+id ---> id is used to uniquely identify that particular input.
+
+...... for better UI, you can use label tag
+
+label tag contains attribute "for" which must be same as input's id.
+
+Eg:
+<label for="un">Username:</label>
+<input type="text" name="username" id="un" placeholder="enter the name" value="raj" >
+
+
+Different Types of Inputs:
+1. text ---> used for general texts like usernames, names etc..,
+2. email ---> used for email (must have @)
+3. password ---> used for password or sekret keys ... by default text is hidden
+4.number ---> used for entering only numbers like phone number,age etc..,
+5.file ---> used for uploading files.
+6. date---> used for date--> by default calender will come
+7. datetime-local ---> used for selecting specific date with specific time
+8. month ---> used for selecting specific month and year
+9. week ---> used for selecting specific week number
+10. search ---> used for searching any text ---> on enter it will submit the form
+11. color--> used to select specific colors
+12. url ----> used for selecting specific urls
+
+
+/* radio buttons and checkboxes */
+
+------> first write input and then label 
+input type="radio" ----> unique ---> name values should be same
+input type="checkbox"  -----> multiple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
