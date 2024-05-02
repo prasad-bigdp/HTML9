@@ -17,3 +17,10 @@ emoji,symbols,icons
 Forms and validation
 media and HTML5
 
+Projects:
+-------------
+WWW Projects
+basic tribute
+resume Projects
+time table
+reg form

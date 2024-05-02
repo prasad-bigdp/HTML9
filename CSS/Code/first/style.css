@@ -1,0 +1,30 @@
+body
+{
+background-color:hsla(152, 39%, 48%,0.8)
+}
+
+ p /* tag name*/
+{
+     background-color: black;
+    color: red; 
+}
+
+.para /* select all elements contains class name para */
+{
+  background-color: black;
+  color: white;
+}
+#p1
+{
+    color: blue;
+}
+
+#bujji
+{
+    color: red;
+}
+
+
+
+
+

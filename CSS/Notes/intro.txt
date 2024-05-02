@@ -1,0 +1,81 @@
+CSS means Cascading Style Sheets. CSS started in 1994. It is used to make design or styling the web pages.
+
+How to do comments in CSS?
+CSS use comments for readability . /* ......................... */
+
+How many types of CSS existed?
+  HTML Elements can get styling in three ways
+  1. Inline styling:
+    Inline Styling means applying styles in the HTML element line only , "style" as a attribute
+  2. Internal styling:
+    we can apply css to elements in head, "style" as a element.
+
+    selector
+    {
+        properties
+    }
+
+    which is powerful inline or internal?
+     if same properties for a single element are defined in inline and internal, inline values will be applied
+
+  3. External Styling:
+    we can also mention our css into external file with a .css extension , 
+
+    how to connect external css to HTML?
+    in head after title, write following
+
+    <link rel="stylesheet" href="path to css" >
+
+which is more powerful?
+!important >Inline> Internal > External
+
+To understand CSS you need to understand 
+different stylings,
+selectors
+colors
+units
+box model
+
+
+Selectors: Selectors defines how css selects an element from HTMl to apply styles.
+The basic selectors are three
+ 1.tag name: we can select elements using tag names. it will select all elements with that paricular tag like p, div,h,body etc..,
+ 2.class name : we can also select elements using class names. usually we will use it when we want to select some specific elements. 
+ To select classname in css you to enter like
+  .classname{
+    properties
+  }
+  ** one element may have multiple class names and multiple elements may have same class name.
+ 3.id name:
+ we can also slect element using ID. usually used to single single element.
+ #idname
+ {
+    properties
+ }
+  ** id's are always should be unique
+ id> classname > tagname
+
+ Colors:
+ name: you can select any color by its name
+hexCode: every color will generate a specific hexadecimal code
+eg: black --#000000, white --#FFFFFF,
+rgb: rgb(red,green,blue)-- each value ranges from 0 to 255
+rgba:rgba(red,green,blue,alpha) -- alpha ranges from 0.0 to 1.0-- light version to dark version
+hsl:hsl(hue,saturation,lighteness)-- hue ranges from 0 to 359, it represents degree of color in color wheel,
+saturation and lightness ranges fro 0% to 100%
+hsla: a means alpha , ranges from 0.0 to 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
