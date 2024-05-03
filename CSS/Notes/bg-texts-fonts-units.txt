@@ -1,0 +1,85 @@
+Backgrounds:
+we can keep background color, gradient, image
+background-color: colorname/color hexcode/rgb/rgba/hsl/hsla
+
+background-image:url('path')
+background-position:center/left/start/right/end;
+background-repeat:no-repeat/repeat/repeat-x/repeat-y;
+background-size:cover/contain/auto;
+
+background:linear-gradient(to right, color1,color2)
+
+radial-gradient(color1,color2);
+
+Font families are of 5 types:
+serif ---> serif family will have a stroke at every edge
+sans-serif : will have clean and smooth
+cursive : will have smooth transition
+fantasy : modern or different fonts
+monospace : like how type writer types, fixed width
+
+
+goto google fonts, select a font --> get font---> get embed code -->@import--> copy the url and paste at top of css file
+
+font-family: family-name,type;
+font-style:italic/oblique/none;
+font-size: size of the font;
+font-weight: thickness(100 to 900 / bold/bolder)
+
+
+Text Properties: these properties are used for textual content
+color: to define text color
+text-decoration:none/dotted/solid/wavy/double etc..,
+text-deccoration-line: underline/line-through/none;
+text-decoration-color: color;
+text-transform: uppercase/lowercase/captalize;
+text-align: left/right/start/end/center/justify;
+Text-shadow: xlength ylength color;
+
+
+Units:
+units are the measurements:
+px: whole device will be fixed with width*height in px
+em: em will take value from parents font-Size;
+1em- 1 time of parents font-size
+rem: rem will take value from root/body's fontSize
+1rem- 16px
+%-- you can specify using %;
+vw or vh: viewport width or view port height defines how much percentage of visible screen you want
+try tribute Page and design it beautifully
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
