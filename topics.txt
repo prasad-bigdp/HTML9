@@ -30,3 +30,4 @@ CSS
 Different types of Styling(inline,internal,external)
 Basic selectors(tagname,.classname, #idname)
 colors(hex code, name , rgb , rgba, hsl, hsla)
+fonts(font-familt,font-size,font-weight,font-style)

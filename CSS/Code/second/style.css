@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 *
 {
-  font-family:'Times New Roman', Times, serif;
+
   font-size:16px;
   
 }
 
 body{
     /* background:linear-gradient(to right, red,green,red,green,red,green,red,green); */
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSYmdwK3kLawMMTKh10NIErZ4LHYnosyAkC1FeCqi2g&s'); */
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSYmdwK3kLawMMTKh10NIErZ4LHYnosyAkC1FeCqi2g&s'); 
  background-repeat:no-repeat;
  background-size: cover;
- background-position: center;
+ background-position: end;
     height: 100vh;
+    font-size: 16px;
 
 }
 /* if you want to any website.. 
@@ -25,8 +26,11 @@ design-- fonts, colors */
 }
 h1
 {
-     font-size: 36px;
-     /* text-shadow:5px 5px red; */
+     color: blue;
+     text-align: center;
+     text-transform: uppercase;
+     /* text-decoration: line-through dashed black 5px; */
+     text-shadow: 1px 1px black;
     
 }
 a{
@@ -36,6 +40,8 @@ a{
 .box{
     background-color: red;
     /* height: 2rem; it will take parents fontSize */
-    height:50%;
-    width:50vw;
+   height: 50vh;
+   width: 50vw;
+    box-shadow: 5px 5px black;
+
 }

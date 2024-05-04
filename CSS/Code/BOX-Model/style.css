@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    color: white;
+    padding:50px 20px  50px 80px;
+   border: 5px solid red;
+   text-align: center;
+}
+a{
+    color: white;
+    font-size: 24px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+main
+{
+    text-align: center;
+    margin: 0px 50px;
+}
+img{
+    height: 300px;
+    clip-path: polygon(11% 14%, 100% 38%, 82% 100%, 18% 100%, 54% 46%);
+    margin-top: 20px;
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+    word-break: keep-all;
+}
+ul li
+{
+    text-align: left;
+}
+a:hover
+{
+    color: aqua;
+}
+img:hover{
+    transform: scaleY(1.1)
+}
+
