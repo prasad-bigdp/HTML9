@@ -1,0 +1,51 @@
+/* .main{
+    background-color: aliceblue;
+    height:300px;
+    width: 50vw;
+    overflow: scroll;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.something img{
+    float:inline-end;
+}
+.box{
+    height: 100px;
+    width: 40vw;
+    margin: 10px;
+    background-color: red;
+    display: inline-block;
+visibility: hidden;}
+a{
+    background-color: aquamarine;
+    height: 200px;
+   display: block;
+} */
+
+.box{
+   display: inline-block;
+width: 46vw;
+}
+.left h1{
+    font-size:44px;
+}
+.left p{
+    color: black;
+    font-size: 24px;
+  
+    text-align: left;
+}
+button{
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+#btn1
+{
+    background-color: pink;
+    color: white;
+}
+.right img{
+ border-radius: 50%;
+}

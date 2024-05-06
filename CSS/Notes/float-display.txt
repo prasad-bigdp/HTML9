@@ -1,0 +1,12 @@
+float removes the  element from its actual flow of document and keeps it left/right as mentioned.
+
+to keep two elements side by side, you can use float left/right to both of them
+
+to clear up any elements left or right sides, you can use "clear" property.
+
+Display: display property is used to display specific elements. there are mainly elements divided as two types
+
+block and inline: block elemnets are used to display one after another, inline elements allow other elements appear beside them but inline cannot take height or width.  to make elements take height or width and use as inline , we can use display:inline-block.
+
+you can ocnvert normal elements into table by display table
+display none will remove the element from actual document. visibility hidden will not remove the element but will just not display it. 

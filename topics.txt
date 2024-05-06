@@ -28,6 +28,18 @@ reg form
 CSS
 ======================
 Different types of Styling(inline,internal,external)
-Basic selectors(tagname,.classname, #idname)
+Basic selectors(tagname,.classname, #idname), :hover
 colors(hex code, name , rgb , rgba, hsl, hsla)
-fonts(font-familt,font-size,font-weight,font-style)
+fonts(font-family,font-size,font-weight,font-style)
+text(text-decoration,text-shadow,text-transform,text align)
+background(linear,radial,img,size,postition,repeat)
+units(px,em,rem,%,vw,vh)
+box model(padding,margin,border,border-radius)
+float, display
+
+
+
+
+
+
+
