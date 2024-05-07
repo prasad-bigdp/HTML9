@@ -1,0 +1,27 @@
+.main{
+height: 300px;
+border: 1px solid black;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items:center;
+gap: 10px;
+width: 250px;
+}
+.box{
+height: 50px;
+width: 50px;
+background-color: red;
+border: 1px solid white;
+color: white;
+}
+.box1{
+    order: 1;
+}
+.box2{
+    order:3
+}
+.box5{
+    order: -1;
+}

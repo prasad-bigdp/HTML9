@@ -1,0 +1,2 @@
+Flex is used to make items flexible in one direction.
+Flex is always used for container/parent
