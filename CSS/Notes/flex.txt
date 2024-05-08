@@ -1,2 +1,31 @@
 Flex is used to make items flexible in one direction.
 Flex is always used for container/parent
+
+always flex items will be wither in row or column
+you can change by property
+flex-direction:row/column/row-reverse/column-reverse
+
+always justify works in direction of flex-direction and align works other way 
+
+justify-content: used to move items in main-axis
+justify-content: start/flex-start/end/flex-end/center/space-between/space-around/space-evenly
+
+align-items: used to move items in cross axis
+align-content: used to move lines in cross axis
+flex-wrap: used to divide flex-items into lines
+flex-wrap:nowrap/wrap/wrap-reverse;
+
+flex-flow:flex-direction flex-wrap
+
+gap: gap between the items
+
+
+some properties are used for children/item:
+
+flex-grow: used to make one element grow more than other
+
+flex-shrink: used to make one element shrink more than other
+
+flex-basis: used to make specific width for the element
+
+order: defines the order in which the element appears. basically all elements will have order zero

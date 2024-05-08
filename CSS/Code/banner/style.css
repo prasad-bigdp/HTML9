@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+ font-family: 'Times New Roman', Times, serif;
+ 
+}
+header{
+    background-color: black;
+    color: white;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 40px;
+   align-items: center;
+}
+.logo{
+    font-size:36px
+}
+.logo span,h1 span{
+    color: aqua;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    border: 1px solid aqua;
+
+}
+a:hover{
+    color: aqua;
+}
+button:hover
+{
+    background-color: aqua;
+}
+#banner{
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    gap: 200px;
+    align-items: center;
+    padding: 0px 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.right img{
+    border-radius: 50%;
+    height: 70vh;
+    
+}
+.left button{
+    width: max-content;
+}

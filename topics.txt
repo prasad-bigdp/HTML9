@@ -36,7 +36,7 @@ background(linear,radial,img,size,postition,repeat)
 units(px,em,rem,%,vw,vh)
 box model(padding,margin,border,border-radius)
 float, display
-flex
+flexbox
 
 
 
