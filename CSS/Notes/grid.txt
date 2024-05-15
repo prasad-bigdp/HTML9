@@ -1,0 +1,2 @@
+if you want to arrange elements in a container in two dimensional, will use grid.
+grid will be always applied to container

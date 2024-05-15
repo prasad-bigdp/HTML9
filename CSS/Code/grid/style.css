@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    height: fit-content;
+    
+    border: 1px solid red;
+   display: grid;
+grid-template-areas: "A A A"
+                     "B C D"
+                     "B E E";
+  
+}
+.box{
+
+
+background-color: black;
+border: 1px solid rgb(255, 255, 255);
+color: white;
+}
+/* .box1
+{
+    grid-column:1/3;
+}
+.box3{
+    grid-row:2/4
+}
+.box6{
+    grid-area: 3/2/5/4;
+
+} */
+
+.box1{
+    grid-area: A;
+}
+.box2{
+    grid-area: B;
+}
+.box3
+    {
+grid-area: C;
+    }
+.box4{
+    grid-area: D;
+}
+.box5{
+    grid-area: E;
+}
