@@ -1,0 +1,2 @@
+Pseudo classes followed by :: and pseudo elements followed by :,
+Thesea re used for specific selection

@@ -1,0 +1,98 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box:hover{
+   background-color: blue; 
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: yellow;
+}
+/* input:required{
+    background-color: red;
+}
+input:optional{
+    background-color: black;
+} */
+/* input:read-only
+{
+    background-color: red;
+}
+input:read-write
+{
+    background-color: black;
+} */
+/* input:disabled{
+    background-color: red;
+}
+input:enabled{
+    background-color: black;
+} */
+/* input:focus{
+border-radius: 50px;}
+input:user-valid{
+    color:green;
+}
+input:user-invalid{
+    color: red;
+} */
+
+/* .box:nth-last-child(5)
+{
+    background-color: blue;
+} */
+
+.box:nth-last-of-type(1)
+{
+    background-color: blue;
+}
+button:nth-of-type(2)
+{
+    background-color: blue;
+}
+.box:empty{
+    background-color: yellow;
+}
+p:where(div p)
+{
+background-color: green;
+}
+.boxx:has(.para)
+{
+    background-color: rgb(255, 255, 255);
+}
+
+p::first-line{
+    font-size: 45px;
+    color: red;
+}
+input::placeholder
+{
+    color: red;
+}
+.para::after{
+    content:"prasad"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
