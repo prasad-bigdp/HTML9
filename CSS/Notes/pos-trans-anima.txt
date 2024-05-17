@@ -1,0 +1,14 @@
+Position: it makes an element stay where ever we want.
+we have 5 position values
+ i.static: By default, all elements have position static, top,left,bottom,right will not have any impact on static
+
+ ii.relative: relative elements compares from its previous position. so top:20px will move element 20px bottom from its previous position
+
+ iii.absolute: absolute elemnts compares from body. so top:20px will move element 20px bottom from body
+
+ iv.fixed: fixed is exactly absolute but scrolling will not have any effect on it
+
+ v.sticky:
+ sticky is nothing but relative plus fixed. after a specific query , relative element will become fixed element
+
+Transitions:
