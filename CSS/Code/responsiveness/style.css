@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    gap: 30px;
+}
+/* usual breakpoints are: 
+mobiles/smartphones: max480-570px
+tablets: 768px-776px 
+pc: 1024px
+laptop:1280px
+big laptops:1400px
+>1400px--> tv
+
+*/
+@media ((min-width:768px) and (max-width:1024px))
+{
+   body{
+    background-color: red;
+   }
+    .main{
+        flex-direction: column;
+    }
+
+
+}
