@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+*{
+      font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  --primary:aqua;
+  --secondary:tomato;
+  box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+/* header css starts*/
+header .logo span{
+    color: var(--primary);
+}
+header .logo{
+    font-size: 36px;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+header .nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .nav .menu{
+    display: flex;
+    gap: 20px;
+}
+header li{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+header li:hover{
+    transform: scale(1.2);
+}
+header a:hover{
+    color: var(--primary);
+}
+header button{
+    border-radius: 25px;
+    height: max-content;
+    padding: 10px;
+    transition: all 2s ease;
+}
+header button:hover{
+    background-color: var(--primary);
+}
+/* header css ends*/
+/* banner css starts*/
+section{
+       padding: 30px 50px;
+}
+#banner{
+    display: flex;
+ 
+    gap: 30px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+#content h2{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+#content h2 span{
+    color: var(--primary);
+}
+#content p{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 200;
+}
+#content .buttons{
+    display: flex;
+    gap:10px;
+}
+button{
+    background-color: white;
+    color: black;
+    transition: all 2s ease;
+    height: 50px;
+    border-radius: 20px;
+}
+.buttons button:hover,.buttons button:nth-child(2):hover
+{
+    background-color: var(--primary);
+}
+.buttons button:nth-child(2)
+{
+    background-color: transparent;
+    border: 1px solid var(--primary);
+}
+#banner-image img{
+    height: 80vh;
+}
+/* banner css ends*/
+/* about starts*/
+ #about{
+    text-align: center;
+ }
+ .heading{
+    font-size: 34px;
+        text-align: center;
+
+ }
+ #about p{
+   font-size: 24px;
+   line-height: 1.2;
+ }
+ #about button a{
+color: black;
+ }
+ #about button:hover{
+    background-color: var(--primary);
+    color: black;
+ }
+/* about ends*/
+.projects{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.project img{
+ height: 300px;
+ width: auto;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 5px 5px black;
+}
+.project:hover{
+    box-shadow: 5px 5px var(--primary);
+    
+}
+.project button{
+    transition: all 2s ease;
+}
+.project button:hover{
+    background-color: var(--primary);
+}
+/* contact */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+/* responsive media queries*/
+@media (max-width:776px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+        flex-direction: column;
+        align-items: start;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    
+}
