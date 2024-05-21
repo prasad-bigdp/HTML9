@@ -159,9 +159,31 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 30vw;
+}
+form input,textarea{
+    margin: 10px 0px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 24px;
+}
+#contact{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+form button:hover{
+        background-color: var(--primary);
 
 }
-
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
 
 
 
@@ -180,5 +202,29 @@ form{
     .menu{
         flex-direction: column;
     }
+    #banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    #content{
+        align-items: center;
+    }
+    .projects{
+        grid-template-columns: repeat(2,auto);
+    }
+    .project img{
+        height: 200px;
+        width: auto;
+    }
     
+}
+@media (max-width:560px)
+{
+   .projects{
+    grid-template-columns: repeat(1,auto);
+   }
+   form{
+    width: 80vw;
+   }
 }
