@@ -1,0 +1,22 @@
+Bootstrap is a component library. Basically libraries are two types, one is utility library, another one is component library.
+To understand Bootstrap you have to know three things
+ i. layout: bootstrap follows grid structure with 12 columns
+ columns can be mentioned with col-length inside class row, you can also keep rows insider container(it will give margin-left and right) or container-fluid
+ ii.colors: primary(blue),secondary(grey),success(green),danger(red),info(skyblue),warning(yellow),dark/black,light/white
+ iii.breakpoint:
+ normal without any breakpoint ----<576px
+ sm ---------- >=576px
+ md -----------> >=768px
+ lg ---------   >=992px
+ xl ---------  >1200px
+ xxl -------   >1400px
+
+ property-breakpoint-length/value
+
+
+
+ Box-Model: p-0 to p-5, pt,pb,ps,pe. same for margin
+ border border-length border-color
+
+
+ 

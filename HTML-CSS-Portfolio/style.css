@@ -23,6 +23,10 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 header .nav{
     display: flex;
