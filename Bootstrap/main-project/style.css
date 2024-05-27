@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.banner h2{
+    font-size: 78px;
+}
+.banner h3{
+    font-size: 32px;
+}
+.banner p{
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.2;
+    letter-spacing: 1.1;
+}
+.features h2{
+        text-decoration:wavy !important;
+    text-decoration-line: underline !important;
+    text-decoration-color: skyblue !important;
+}
+.features .card{
+    perspective: 800px;
+    transition: all 2s ease;
+}
+.features .card:hover{
+    background-color: black !important;
+    color: skyblue !important;
+    transform: rotate3d(45deg);
+        transform-style: preserve-3d;
+
+}

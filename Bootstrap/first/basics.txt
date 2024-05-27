@@ -19,4 +19,10 @@ To understand Bootstrap you have to know three things
  border border-length border-color
 
 
+ Bootstrap also supports components such as accordins,carousels,paginations,cards,modals,popovers etc..,
+
+
+
+
+
  

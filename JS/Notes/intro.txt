@@ -1,0 +1,34 @@
+Javascript is used for the functionality of web site. In 1995,Branden Eich designed JS in 10 days, initially named it as "LiveScript", To use popularity of Js, LiveScipe renamed as Javascript
+----> language of Web
+----> react Js, angular, vue, next,node js,express js
+----> browser contains JS engines which are responsible for running your js
+
+1. How to add JS into our project?
+   There are two ways
+   1. internal JS: we can directly add JS white script tag in html itself
+   2. external Js: we can write js separetly and link it to html by script script
+
+2.how do we declare variables in JS?
+ we can declare variables by var,let,const but we choose var now, var defines variable in global scope
+ All variable should not start with numbers, cannot contain special symbols except _ , camelCases are prefered
+
+3. how do we do comments in JS?
+ we have two ways, single line comments (//), multi line comment (/*.....*/)
+
+JS is a synchronous single threaded language.
+
+4. what are available default global methods?
+  There are three popular default global methods
+  alert("message")
+  confirm("message")-> returns true/false
+  prompt("message")---> inputs a value
+
+
+
+
+
+
+
+
+
+
