@@ -1,0 +1,21 @@
+1. what is hoisting?
+The usage of variable will preceed over declaration is called hoisting.
+it usually returns undefined values
+
+2. what is Execution Content?
+To run any specific task in JS,JS engine divides the task into memory and content sections, in memory section it stores all values as undefined and in content section it runs the code line by line
+
+3. what is GEC and LEC?
+Global Execution content maintains whole code and pointed by window object, Local Execution Content specifies the particular functionality
+
+4. what is call stack?
+JS engines maintaines a stack to monitor the current Execution contents and that stack is called call stack(Last in first out)
+
+
+5. what are let,const,var and difference between between?
+var is a function scoped variables, you can re-declare,re-assign var variables and also you can access them before initialization.
+
+let and const are introduced in ES6 (2015). let, const are block scoped variables, you can re-assign let value but not const. you also cannot re declare or access values before intialization for block scoped variables
+
+
+

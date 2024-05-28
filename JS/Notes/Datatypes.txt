@@ -1,0 +1,13 @@
+Javascript is dynamically typed language
+javascript can do implicit type conversion called duck typing
+
+There are two main types of Datatypes in JS
+ i. primitive: There are 5 primitive data types basically
+   a. number: any numerical value is considered as number type
+   
+   b. string
+   c. boolean
+   d. undefined
+   e. null
+ ii. non-primitve or reference
+

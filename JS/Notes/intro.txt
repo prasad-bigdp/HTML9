@@ -1,4 +1,4 @@
-Javascript is used for the functionality of web site. In 1995,Branden Eich designed JS in 10 days, initially named it as "LiveScript", To use popularity of Js, LiveScipe renamed as Javascript
+sJavascript is used for the functionality of web site. In 1995,Branden Eich designed JS in 10 days, initially named it as "LiveScript", To use popularity of Js, LiveScipe renamed as Javascript
 ----> language of Web
 ----> react Js, angular, vue, next,node js,express js
 ----> browser contains JS engines which are responsible for running your js
@@ -6,7 +6,9 @@ Javascript is used for the functionality of web site. In 1995,Branden Eich desig
 1. How to add JS into our project?
    There are two ways
    1. internal JS: we can directly add JS white script tag in html itself
-   2. external Js: we can write js separetly and link it to html by script script
+   <script>
+   </script>
+   2. external Js: we can write js separetly and link it to html by script <script src="path"></script>
 
 2.how do we declare variables in JS?
  we can declare variables by var,let,const but we choose var now, var defines variable in global scope
@@ -24,7 +26,19 @@ JS is a synchronous single threaded language.
   prompt("message")---> inputs a value
 
 
+All Programming languages will have some common basics
+ i. variables
+ ii. data types
+ iii. operators
+ iv. functions
+ v. condition statements
+ vi. loops
 
+
+
+
+
+ 
 
 
 
