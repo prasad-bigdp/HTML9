@@ -1,4 +1,4 @@
-sJavascript is used for the functionality of web site. In 1995,Branden Eich designed JS in 10 days, initially named it as "LiveScript", To use popularity of Js, LiveScipe renamed as Javascript
+Javascript is used for the functionality of web site. In 1995,Branden Eich designed JS in 10 days, initially named it as "LiveScript", To use popularity of Js, LiveScipt renamed as Javascript
 ----> language of Web
 ----> react Js, angular, vue, next,node js,express js
 ----> browser contains JS engines which are responsible for running your js

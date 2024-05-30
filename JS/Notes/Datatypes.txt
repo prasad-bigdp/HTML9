@@ -4,7 +4,116 @@ javascript can do implicit type conversion called duck typing
 There are two main types of Datatypes in JS
  i. primitive: There are 5 primitive data types basically
    a. number: any numerical value is considered as number type
-   
+    25,2555555555555555555555,25.36,2.3666664645
+    25.369.toFixed(2)==>returns number with 2 digits after decimal
+    ,25.369.toPrecision(3)==> returns number with 3 digits from starting,
+    25.toString(2)==> converts number into binary
+
+    all above methods returns string. to convert any value to number you can use Number() or keep + before the value
+
+    we have math methods
+    Math.abs(-10)==> 10(returns absolute or positive value),
+    Math.max(2,5)=> 5 returns maximum value
+    Math.min(2,5)==> 2 returns minimum value
+    Math.floor(2.86)==> 2 ==> returns lowest near integer
+   Math.ceil(2.16)==> 3 ==> returns highest near integer
+   Math.round(2.16)==>2 ==> returns nearest integer
+   Math. random()==> returns random value from 0.0-1.0
+   Math.pow(2,3)==> returns 2 power 3, also we can use 2**3
+   Math.PI is a constant, Math.Infinity is a constant
+   Math.sqrt()==> returns square root,
+   Math.cbrt()==> returns cube root
+ 
+  2. strings:
+  strings are nothing but values embraced by quotations(single,double,backtick)
+  There is no difference b/w single/double quotationed strings
+  strings are stored as array of characters
+  for eg: let a="javascript" is stored in array of 10 length and each character placed in index ranges from 0-9
+  a[0]='j' 
+
+  strings are immuatble, you can replace them but any function/method applied on it will not alter it
+
+  strings methods:
+  a.length ==> returns no.of characters
+  a.indexOf('char') ==> returns index value of character 
+  a.charAt(num) ===> returns character at num index
+  a.subString(start,end)==> returns from start to end index part of string, if only start is given from start till end part of string will be returns
+  a.slice(start,end)==> similar to subString
+  a.split("delimiter")==> returns array of substrings separated by delimiter
+  array.join("")==> returns string combining all array values by delimiter
+  a.replace("old","new")==> replace old string with new string in first occurence
+  to replace all values you can use replaceAll
+  toUpperCase() or toLowerCase() used to convert given string into upper or lower case
+  startsWith and endsWith returns true or false by checking whether the given string is starting or ending with our specified inputs
+  trim()==> returns string by removing spaces from first and last
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    b. string
    c. boolean
    d. undefined
