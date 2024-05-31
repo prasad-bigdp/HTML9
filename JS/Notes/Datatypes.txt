@@ -47,76 +47,11 @@ There are two main types of Datatypes in JS
   startsWith and endsWith returns true or false by checking whether the given string is starting or ending with our specified inputs
   trim()==> returns string by removing spaces from first and last
 
+   c. boolean : boolean are used to store true(1) or false(0). decision makings are done by boolean value
 
+   d. undefined: undefined represents absence of value but expects future occurence
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   b. string
-   c. boolean
-   d. undefined
-   e. null
+   e. null: null also represents absence of value without any future expectations
+   
  ii. non-primitve or reference
 

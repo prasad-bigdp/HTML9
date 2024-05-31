@@ -1,0 +1,5 @@
+ functions  are used to perform a specific task. instead of writing whole program , we divide the program into several parts as functions. 
+
+ functions are used to divide the code and also to reuse the code
+
+ functions have declaration,definition and calling

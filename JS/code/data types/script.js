@@ -88,8 +88,22 @@ let isLogin = false
 console.log(a)
 var a=null
 // undefined vs null
-
-
+console.log(a)//undefined
+var a = 20;
+var a = 25
+a = 26
+console.log(b)
+let b = 25;
+ b = 20
+function fun ()
+{
+    if (true)
+    {
+        let x = 55;
+    }   
+    console.log(x)
+}
+fun()
 
 
 
