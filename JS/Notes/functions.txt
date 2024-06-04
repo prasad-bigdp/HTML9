@@ -2,4 +2,169 @@
 
  functions are used to divide the code and also to reuse the code
 
- functions have declaration,definition and calling
+ functions have declaration,definition and calling.
+
+//Basic function
+function fun-name()
+{
+    console.log("hello world")
+}
+fun-name()
+
+first it reaches line 12 and then goes inside the function and prints hello world
+
+//functions with parameters
+function sum(a,b)
+{
+    console.log(a+b)
+}
+sum(2,3)
+
+// function which returns
+function sub(a,b)
+{
+    return a-b;
+}
+
+let result= sub(6,5)
+console.log(result) //1
+
+//nested functions
+
+function x()
+{
+    function y()
+    {
+
+    }
+    y()
+}
+
+function expressions: functions can be stored as a variable in Javascript. those are called function expressions
+function abc()
+{
+    console.log("my function")
+}
+console.log(abc)
+
+const xyz= function()
+{
+    console.log("my function 2")
+}
+
+* A function without any name is called  anonymous function
+
+// callback function:
+A function that is passed as a parameter to another function, then that function is called callback function
+
+function fun1()
+{
+    console.log("something")
+}
+function fun2(y)
+{
+    y()
+}
+fun2(fun1)
+
+
+// some times functions can be used to provide security by make them not reusable
+(
+    function(){
+        let secret_key="hvbhjf";
+        passthekey(secret_key)
+    }
+)();
+// Immediate invoke function expressions - these functions will be called only once - used for encapsulation
+
+//closures - inner functions can remember outer function values even after outer function execution ended - used for techniques like memorization
+function Out ()
+{
+    let x = 25;
+    function Inner ()
+    {  x++; console.log(x) }
+    return Inner;
+}
+const result2 = Out()
+console.log(result2)
+result2()
+result2()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
