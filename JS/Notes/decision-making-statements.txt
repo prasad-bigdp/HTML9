@@ -1,0 +1,80 @@
+There are two decision making statements in js
+1. if : if is used to take a decision and based on the decision , control flow may change
+simple if: if(condition){
+    //statements
+}
+if-else: if(condition){
+    //statements - runs only if condition is true else will to else
+}
+else{
+    //statements
+}
+nested if: one if inside another if
+if(condition1){
+    if(condition20){
+        //statements
+    }
+}
+if-else-if: it works for multi level if and else
+if(consition1)
+{
+    
+}
+else if(condition2)
+{
+
+}
+else{
+
+}
+// without math methods find largest and smallest in three numbers
+
+
+
+//switch is also used to make decisions and switch is an alternative for if else if
+switch(value)
+{
+    case value1: //statements break;
+    case value2: //statements break;
+    case value3: //statements break;
+    default: //statement
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. switch

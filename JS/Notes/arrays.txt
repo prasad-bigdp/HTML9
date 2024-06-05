@@ -1,0 +1,161 @@
+//primtives will take values and immutable
+//non primitve data types will take address and mutable
+arrays are used to set of items
+let arr= [2,5,"raj"]
+array methods:
+1. push: used to push the element to the end of the array
+arr.push(6)==> [2,5,"raj",6]
+2.pop: used to remove the element from the end of the array
+arr.pop()==> [2,5,"raj"]
+3.unshift: used to push the elements to the starting of the array
+arr.unshift(58) ==> [58,2,5,"raj"]
+4. shift(): used to remove the element from the starting of the array
+arr.shift()==> [2,5,"raj"]
+5.arr.length ==> length of the array
+
+arrays always store the data with indexes. index values starts from 0.
+
+6. arr.indexOf('ele') ==> return indexOf ele first occurence in arr
+7. arr.lastIndexOf('ele') ==> return indexOf of ele last occurence in arr
+8. fill(value to fill, starting index, ending index):
+arr.fill(5,2,5)==>[2,5,5,5,5,"raj"]
+9. splice(starting index, delete count, inserting elements);
+arr.splice(2,1,5,6)==> [2,5,5,6,5,5,5,"raj"]
+10. concat : is used to add two arrays
+let arr2=[8,9,10]
+arr.concat(arr2) // [2,5,5,6,5,5,5,"raj",8,9,10]
+11. reverse() // reverse the array
+12. sort()==> sort the elements lexigraphically
+[1,5,4,3,55,33] ==> [1,3,33,4,5,55]
+13. forEach(callback fn) ==> used to execute a function/logic to each and every element of the array.
+[5,6,9].forEach(function(r,i){
+  console.log(r,i)
+})
+// 5 0
+//6 1
+//9 2
+but forEach cannot return the values
+14.map: map is also used to iterate a call back function for each and every element of the array but it returns a new array of all values
+const res=[5,6,9].map(function(r,i){
+  return r*2
+})
+console.log(res) //[10,12,18]
+but it returns values for all elements which is not ideal everytime
+const res=[5,6,9].map(function(r,i){
+  return r>5
+})
+console.log(res) //[ false,true,true]
+but what if i want only true values, we can use filter
+15. filter(callback fn): filter only the elements whose return condition is true
+const res=[5,6,9].filter(function(r,i){
+  return r>5
+})
+console.log(res) //[6,9]
+16. reduce(callback fn,starting value)
+[5,6,9].reduce(function(p,c){ return p+c },0)
+it returns sum of elements and logic works like addition of each time will become p for next time
+17. find(callback fn): returns the value which satistfies the condition at first
+[5,6,9].find(function(p){
+    return p>5
+})
+//6
+if you want index you can also use findIndex
+18. some(callback fn) and every(callback fn)
+[5,6,9].some(function(p){
+    return p>5
+})
+if atleast one element satistfies the condition, whole statement will be true
+but incase of every, all elements should satistfy the condition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
