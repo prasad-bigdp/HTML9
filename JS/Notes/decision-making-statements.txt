@@ -15,6 +15,7 @@ if(condition1){
         //statements
     }
 }
+
 if-else-if: it works for multi level if and else
 if(consition1)
 {
@@ -39,6 +40,11 @@ switch(value)
     case value3: //statements break;
     default: //statement
 }
+
+
+
+
+
 
 
 

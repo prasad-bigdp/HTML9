@@ -1,0 +1,45 @@
+// loops will iterate until condition fails unlike decision making statements which executes once.
+There are two kinds of loops
+1. entry control loop: condition will be checked at the entrance of loop
+eg: while, for
+while: 
+  initialization;
+  while(condition)
+  {
+    //statements;
+    updation;
+  }
+
+for loop: for loop will take initialization,condition,updation in the same line. that's why it s mostly used loop.
+
+In js , we have several variations of for, some are
+standard loop:
+for(initialization;condition;updation)
+{
+    //statements
+}
+
+
+
+
+
+
+
+
+
+
+
+
+2. exit control loop:
+
+do-while:
+initialization;
+do{
+    //statements;
+    updation
+}while(condition);
+
+
+
+
+
