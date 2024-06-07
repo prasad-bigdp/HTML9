@@ -1,0 +1,28 @@
+Document object stores complete html in browser. understanding about that is document object model.
+1.selection : 
+  how do we select html elements from dom in javascript?
+
+  document.getElementsByTagname('tagname') - select list of elements with that tag name
+
+  document.getElementsByClassName('classname') - select list of elements with that class name
+
+  document.getElementById('id') - select the element with that id
+
+  document.querySelector('query') - it selects first element based on CSS query
+  document.querySelectorAll('query') - select all elements based on css query
+
+
+2.manipulation:
+you can manipulate element by 
+  textContent: you can manipulate text inside any element by textContent
+  innerText : you can also manipulate text inside any element of dom by innerText but innerText also considers CSS
+  innerHTML : you can manipulate whole html by innerHTML
+  value: you can select value inside an input tag by element.value
+
+
+
+
+
+
+
+3.creation

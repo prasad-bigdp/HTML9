@@ -1,0 +1,8 @@
+body{
+    max-width: 1280px;
+    padding: 0px 200px;
+}
+
+#z{
+    visibility: hidden;
+}
