@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.accordin-item{
+    border:1px solid black
+}
+.heading{
+    background-color: blue;
+    color: white;
+}
+.hide{
+    display: none;
+}

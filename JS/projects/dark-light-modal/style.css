@@ -1,0 +1,13 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+.goback{
+    transform: translateX(-200px);
+    transition: all 2s ease;
+}
+.hide{
+    display: none;
+        transition: all 3s ease;
+
+}
