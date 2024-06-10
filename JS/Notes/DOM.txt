@@ -19,8 +19,31 @@ you can manipulate element by
   innerHTML : you can manipulate whole html by innerHTML
   value: you can select value inside an input tag by element.value
 
+  we can also manipulate class of a element 
+  element.classList.add/remove/toggle('classname')
+  element.style.stylename=value;
 
 
+Events:
+We can triggere functions in Javascript by Events. There are two ways to initiate the Events
+1. Event Handlers(HTML)
+2. EvnetListeners(JS)
+
+There are so many types of events like
+keyboard events (keyup,keydown,keypress)
+mouse events(mouseover,mouseup,mousedown,moustout,click,dblclick)
+browser events (onload,close,resize,scroll) etc..,
+
+To better understand Event Listener, you need to understand Event propagation and Event Delegation
+
+Event Propagation: it basically tells how events propagate,
+There are two possible ways i.e.,, bubbling and capturing
+when multiple nested elements have same events to trigger , then if we trigger innermost event , then automatically its parent,their parent elements and soo on till body will be triggered
+
+Bubbling: triggering of innner to outer is called bubbling
+capturing: triggering of events from outer to inner is called capturing and it works by keeping third argument of addEventListener "true"
+
+Event Delegation: It is a design pattern to Execute multiple child elements by triggering its parent
 
 
 
