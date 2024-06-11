@@ -46,6 +46,4 @@ capturing: triggering of events from outer to inner is called capturing and it w
 Event Delegation: It is a design pattern to Execute multiple child elements by triggering its parent
 
 
-
-
-3.creation
+3.creation: we can also create html in javascript by using createElement

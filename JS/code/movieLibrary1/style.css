@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
