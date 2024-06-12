@@ -1,0 +1,7 @@
+Javascript is a synchronous , single threaded language
+but we can also perform asynchronous logic
+Asynchronous functions will take some time to execute
+
+Timers: there are two timers available in browser's Web API. they are 
+setTimeout()
+setInterval()
