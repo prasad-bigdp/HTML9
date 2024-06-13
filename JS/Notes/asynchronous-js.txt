@@ -3,5 +3,54 @@ but we can also perform asynchronous logic
 Asynchronous functions will take some time to execute
 
 Timers: there are two timers available in browser's Web API. they are 
-setTimeout()
-setInterval()
+setTimeout(fn,time in milli seconds)
+setInterval(fn,time in milli seconds)
+
+Web API's : Web API's are functionalities given by browser to Javascript
+eg: console,document,timers,fetch
+
+API(Application Programming interface):
+one application can interact with another application/ backend data through API's
+There are different Types Of API'seconds
+1.REST API's: These are used for Representation State Transfer CRUD Operations.
+commonly used for Web Development. we will send data As JSON
+2. SOAP API's:(simple Object Access Protocol): we will transfer the data as XML 
+3.graphQL: used for faster request and will request only when it is needed
+4.websockets: used fro real time messaging eg:chatting
+
+How to get Data From API:
+ we will get the data from API(REST API) using fetch. In olden times we used to use XmlHttpRequest. we can also use third party libraries like "axios"
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

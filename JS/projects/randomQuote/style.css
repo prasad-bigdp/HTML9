@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,aliceblue,tomato);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
