@@ -1,0 +1,3 @@
+Ecmascript releases ES6 in 2015. these features are important. they are:
+1. Arrow functions: arrow functions will make normal functions in a modern and simplified way. Arrow functions can return by default if only one statement is present. Arrow functions don't have any implicit "this" operator.
+

@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pokedex
+{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#main{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inp{
+    border-radius: 20px;
+}
+#inp:focus{
+    outline: 1px solid blue;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttons button{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: tomato;
+}

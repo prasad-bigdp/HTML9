@@ -22,7 +22,7 @@ How to get Data From API:
  we will get the data from API(REST API) using fetch. In olden times we used to use XmlHttpRequest. we can also use third party libraries like "axios"
 
  
-
+fetch returns a promise. if promise is resolved it will goto then, if promise rejects , it will goto catch
 
 
 
