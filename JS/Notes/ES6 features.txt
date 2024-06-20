@@ -1,3 +1,81 @@
 Ecmascript releases ES6 in 2015. these features are important. they are:
 1. Arrow functions: arrow functions will make normal functions in a modern and simplified way. Arrow functions can return by default if only one statement is present. Arrow functions don't have any implicit "this" operator.
 
+function fun()
+{
+    console.log("hi")
+}
+
+const fun= ()=> console.log("hi")
+
+2. Template literals: js can represent strings with backticks. these are used to mix values with text
+let a =25;
+str= `the value is ${a}`
+
+3. let and const : block scoped variable declarations
+let and const avoid using before declaration and redeclare and const avoid re assign
+
+4. special data types: there are some special data types like 
+sets,maps,symbols,dates
+Date: new Date()-->will return date with complete values
+you can get date,month,year,time and you can also set them
+
+symbols: symbols are strings which are used as a constant
+const x=Symbol("string");
+
+sets: to create unique arrays/objects
+let se= new Set()
+se.add(5)--> 5 is added
+se.add(6) ----> 6 will be added
+se.add(5) ----> 5 will not be added since already 5 exists so size doesn't change. se.values() can be used as iterator
+
+Maps: maps are used to create unique reference objects wheareas object replace new key and value, maps only replaces the value.
+to set the values will use set() and to get the values will use get()
+
+5. rest and spread operators
+rest operator and spread operator both are defined with ... (three dots)
+but when we are considering as rest of parameters it is rest operator and it should be always last parameter. when we are splitting/spreading the values to assign some other variable, we consider it as spread operator
+
+6. destructuring(object and array):
+let obj={name:"raj",age:20}
+const {name,age} = obj
+console.log(name,age)//raj 20
+you can destructure an array
+let arr=[2,5,6]
+const [a]= arr
+console.log(a)//2
+
+7. classes and objects:
+To understand classes and objects , first we need to know OOP(Object oriented programming)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

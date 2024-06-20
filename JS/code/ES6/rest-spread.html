@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       const sum = (...b) =>console.log(b.length); 
+       sum(2, 3,4,5); 
+
+       const fun=(a,...b)=>{//rest
+         const x=[5,6,...b,7]//spread
+         console.log(x)
+       }
+       fun(25,"raj",33,"xyz");
+
+       let obj={
+        title:"RRR",
+        year:2023,
+       }
+       console.log(obj)
+    
+    </script>
+</body>
+</html>
+
+
+
+
