@@ -36,6 +36,11 @@ to set the values will use set() and to get the values will use get()
 rest operator and spread operator both are defined with ... (three dots)
 but when we are considering as rest of parameters it is rest operator and it should be always last parameter. when we are splitting/spreading the values to assign some other variable, we consider it as spread operator
 
+function sum(a,b,...c){
+  const x= [2,5,...c,8,9]
+}
+sum(2,3,5,8,7,9)
+
 6. destructuring(object and array):
 let obj={name:"raj",age:20}
 const {name,age} = obj
@@ -47,6 +52,53 @@ console.log(a)//2
 
 7. classes and objects:
 To understand classes and objects , first we need to know OOP(Object oriented programming)
+
+class is a collection of objects and object is a physical entity. object have properties and methods which are primarily defined by class
+class Bike{
+    speed;color;model;
+    run(){console.log("working well")}
+}
+console.log(typeof Bike) //
+if you create object like
+let obj= new Bike();
+obj can use speed,color,model and run();
+obj.color="red"
+let obj2= new Bike()
+
+
+//constructor 
+constructor: it is default method which get initated whenever you create an object
+constructor()---> default constructor
+constructor(x,y)---> paramaterised constructor
+constructors are used to assign default values to objects.
+
+inheritance: one class can inherit properties of another class using inheritance
+we can achieve inheritance by extends keyword
+when you are inheriting to call parent class constructor we use super(), 
+
+classes can also hold some values to static memory by using keyword "static".
+
+8. modules: your file will store within a module system. 
+we have different module systems like "common JS,require JS,UDS" , but ES6 brings a new module system called "ES6 module system" , we will use this in JS.
+
+you use two keywords "export" and "import" to use the functions or variables or any data. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
