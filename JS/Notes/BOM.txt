@@ -1,0 +1,1 @@
+Browser Object Model: browser contains an object to maintain its all data and methods. that is window.
