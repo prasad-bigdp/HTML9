@@ -1,0 +1,4 @@
+what to learn: roadmap.sh
+where to learn: https://github.com/markodenic/web-development-resources?tab=readme-ov-file#learning-platforms
+
+implement Project Based Learning
