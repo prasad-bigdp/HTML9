@@ -1,0 +1,22 @@
+/* global css*/
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+*{
+    box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+  font-family: "Rock Salt", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  --primary:#EE4E4E;
+  --secondary:#219C90;
+  --hover:#FFC700
+
+}
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.swiper{
+    height: 600px;
+}
