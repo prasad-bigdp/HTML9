@@ -2,7 +2,6 @@ const swiper = new Swiper(".swiper", {
 	// Optional parameters
 	direction: "horizontal",
 	loop: true,
-	autoplay: true,
 	effect: "flip",
 	flipEffect: {
 		slideShadows: false,
@@ -19,12 +18,5 @@ const swiper = new Swiper(".swiper", {
 	},
 })
 
-function fetchdata ()
-{
-
-}
-fetchdata()
-function displayData ()
-{
-    
-}
+const count = document.getElementById('count');
+count.textContent= localStorage.getItem('count')??0

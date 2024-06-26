@@ -17,6 +17,41 @@ a{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.swiper img{
+width: 100vw;
+}
 .swiper{
     height: 600px;
 }
+
+
+/* products css*/
+
+
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+#product{
+    display: flex;
+    gap: 20px;
+}
+
+.productImage{
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
