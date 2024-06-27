@@ -2,7 +2,8 @@ const productsDiv = document.getElementById("products")
 const count = document.getElementById("count")
 let c=0;
 count.textContent = localStorage.getItem("count") ?? 0
-let items = localStorage.getItem("items") ?? []
+let items = JSON.parse(localStorage.getItem("items")) || []
+console.log(items)
 async function fetchdata ()
 {
     const res = await fetch("https://dummyjson.com/products")
@@ -47,7 +48,8 @@ const addCart = (prod) =>
 {
     c++;
     count.textContent = c;
-    items.push(JSON.stringify(prod))
+    items.push(prod)
+    console.log(items)
     localStorage.setItem('count', c);
-    localStorage.setItem('items',items)
+    localStorage.setItem('items',JSON.stringify(items))
 }

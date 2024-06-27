@@ -39,9 +39,23 @@ function displayData (data)
     const price = document.createElement('p');
     price.textContent = "$" + data.price;
     const addButton = document.createElement('button');
-    addButton.textContent= "Add to Cart"
+    addButton.textContent = "Add to Cart"
+    addButton.addEventListener('click',()=>addCart(data))
     rightdiv.append(title,desc,price,addButton)
-    proDiv.append(leftDiv, rightdiv)
-    
-    
+    proDiv.append(leftDiv, rightdiv)  
+}
+let items = JSON.parse(localStorage.getItem("items")) || []
+
+let c = localStorage.getItem('count');
+document.getElementById("count").textContent=c
+const addCart = (prod) =>
+{
+    console.log("clicked")
+    items.push(prod);
+    c++;
+    console.log("items added")
+    localStorage.setItem("count", c)
+    localStorage.setItem("items", JSON.stringify(items))
+    document.getElementById("count").textContent = localStorage.getItem("count")
+
 }

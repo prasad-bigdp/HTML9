@@ -42,7 +42,17 @@ width: 100vw;
 .productImage{
     height: 400px;
 }
+.productImage:hover{
+    cursor:crosshair
+}
 
+.cartitem,#tc
+{
+    margin: 20px;
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+}
 
 
 
